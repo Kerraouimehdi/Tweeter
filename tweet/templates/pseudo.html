@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Tweeter</title>
+</head>
+<body>
+<h1> Tweets </h1>
+
+	{% for tweet in List_of_tweets  %}
+<div>
+ <a href =''>  {{ tweet.utiliateur }} </a>
+   {{ tweet.message }}
+ 
+    	
+</div>		
+
+	{% endfor  %}
+
+</body>
+</html>
